@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="lib/style.css" />
+</head>
+
+<!-- NAVBAR (START) -->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+
+	<!-- LOGO (START) -->
+	<a class="navbar-brand" href="#">
+		<img src="http://www.estudiossb.com/wp-content/uploads/2018/08/logo-sb.png" alt="Logo" style="width:40px;">
+  </a>
+	<!-- LOGO (END) -->
+
+	<!-- NAVMENU (START) -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div id="collapsibleNavbar" class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Section1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section2">Section2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"  href="#section3">Section3</a>
+      </li>    
+    </ul>
+  </div>  
+	<!-- NAVMENU (END) -->
+
+	<!-- SEARCHBAR (START) -->
+	<form id="searchbar" class="form-inline" method="get" action="http://www.google.com/search">
+	<input class="form-control" type="text" placeholder="Search Google" value="" name="q" />
+	<input type="hidden" value="en" name="hl" />
+	<input type="hidden" value="lang_en" name="lr" />
+	<input class="btn btn-success" type="button" value="Search" onclick="submit()" />
+	</form>
+	<!-- SEARCHBAR (END) -->
+</nav>
+<!-- NAVBAR (END) -->
+
+<!-- MAIN SECTION (START) -->
+<body data-spy="scroll" data-target=".navbar" data-offset="5">
+	<div id="section1" class="container">
+		<div class="row">
+			<div class="col">
+				<img  id="image" src="https://tiny.cc/bnpk9y" alt="shubham" class="rounded-circle img-fluid mx-auto d-block img-thumbnail shadow-lg p-2 m-2"/> 
+			<h1 id="heading_main" class="display-4 ">Shubham Batham</h1>
+	</div>
+	</div>
+</div>
+<!-- MAIN SECTION (END) -->
+
+<!-- CONTENT SECTION (START) -->
+	<div id="content" class="container mt-4 p-4">
+		<!-- SECOND SECTION (START) -->
+		<div id="section2" class="row bg-warning m-4">
+			<div class="col p-4">
+				<h1>Why this WebSite?</h1>
+				<p>This website is meant to exhibit and hone my front end development skills and also to impart the knowledge I have gained in the process and beyond.</p>
+			</div>
+		</div>
+		<!-- SECOND SECTION (END) -->
+
+		<div id="section3" class="row-sm-4 m-4 bg-secondary">
+			<div class="col p-4">
+				<h1>Section 3</h1>
+				<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+					navigation bar while scrolling!</p>
+				<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+					navigation bar while scrolling!</p>
+			</div>
+		</div>
+
+		<div id="section4" class="row-sm-4 m-4 bg-secondary">
+			<div class="col p-4">
+				<h1>Section 4 Submenu 1</h1>
+				<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+					navigation bar while scrolling!</p>
+				<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+					navigation bar while scrolling!</p>
+			</div>
+		</div>
+		<div id="section5" class="row-sm-4 m-4 bg-secondary">
+			<div class="col p-4">
+				<h1>Section 4 Submenu 2</h1>
+				<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+					navigation bar while scrolling!</p>
+				<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+					navigation bar while scrolling!</p>
+			</div>
+		</div>
+	</div>
+	<!-- CONTENT SECTION (END) -->
+	<ul class="pagination justify-content-center">
+  <li class="page-item disabled"><a class="page-link" href="javascript:void(0);"><<</a></li>
+    <li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+		<li class="page-item"><a class="page-link" href="javascript:void(0);">3</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">>></a></li>
+	</ul>	
+	<!-- FOOTER (START) -->
+	<div id="footer" class="container-fluid">
+	<div class="row-sm-4">
+			<div class="col p-4">
+				<h1>About Me</h1>
+				<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+					navigation bar while scrolling!</p>
+				<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+					navigation bar while scrolling!</p>
+			</div>
+		</div>
+	</div>
+	<!-- FOOTER (END) -->
+</body>
+
+</html>

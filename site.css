@@ -1,0 +1,77 @@
+/* Add your styles here */
+* {
+  margin: 0;
+  padding: 0;
+}
+#section1 {
+  /* background-color: blueviolet; */
+  background: linear-gradient(270deg, #18f0b8, #18a2f0, #f2f550);
+  text-shadow: 4px 4px 5px black;
+  background-size: 600% 600%;
+  -webkit-animation: Gradient 60s infinite;
+  -moz-animation: Gradient 60s infinite;
+  animation: Gradient 60s infinite;
+  text-align: center;
+}
+#image {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0) !important;
+}
+
+body {
+  padding-top: auto;
+}
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* #grad {
+  background-image: linear-gradient(white, blueviolet);
+  animation-name: colorTransition1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colorTransition{
+  0%   {background-color:red;}
+  25%  {background-color:yellow;}
+  50%  {background-color:blue;}
+  75%  {background-color:green; }
+  100% {background-color:red;}
+}
+@keyframes colorTransition1{
+  0%   {background-image:linear-gradient(white, red);}
+  25%  {background-image:linear-gradient(white, yellow);}
+  50%  {background-image:linear-gradient(white,blue);}
+  75%  {background-image:linear-gradient(white,green);}
+  100% {background-image:linear-gradient(white,red);}
+} */
